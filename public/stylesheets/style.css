@@ -472,8 +472,8 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 .banner-bottom ul li a span{
 	background:url(../images/social-sprit.png) no-repeat;
-	width:67px;
-	height:66px;
+	width:116px;
+	height:103px;
 	display:block;
 	transition: 0.5s all ease;
 	-webkit-transition: 0.5s all ease;
@@ -482,7 +482,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	-ms-transition: 0.5s all ease;
 }
 .banner-bottom ul li a span.twt{
-	background-position:0px 0px;
+	background-position:17px 6px;
 }
 .banner-bottom ul li a span.t{
 	background-position:-67px 0px;
