@@ -9,19 +9,27 @@
       <link rel="stylesheet" href="@routes.Assets.at("assets/css/main.css")" />
       <!--[if lte IE 8]><link rel="stylesheet" href="@routes.Assets.at("assets/css/ie8.css")" /><![endif]-->
       <!--[if lte IE 9]><link rel="stylesheet" href="@routes.Assets.at("assets/css/ie9.css")" /><![endif]-->
+          <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-35206247-1']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
    </head>
    <body>
       @content
       <section id="footer">
             <ul class="icons">
-               <li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-               <li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-               <li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-               <li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-               <li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+               <li><a href="https://www.facebook.com/ctjovenslivres" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+               <li><a href="https://github.com/irobson/jovenslivres-v3" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+               <li><a href="mailto:jovenslivres.blumenau@@gmail.com" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
             </ul>
             <ul class="copyright">
-               <li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+               <li>&copy; Powered by <a href="http://www.forcecode.com.br">Forcecode</a></li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
             </ul>
       </section>
       <!-- Scripts -->
@@ -31,5 +39,6 @@
       <script src="@routes.Assets.at("assets/js/util.js")"></script>
       <!--[if lte IE 8]><script src="@routes.Assets.at("assets/js/ie/respond.min.js")"></script><![endif]-->
       <script src="@routes.Assets.at("assets/js/main.js")"></script>
+
    </body>
 </html>
