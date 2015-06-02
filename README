@@ -1,4 +1,6 @@
-This is your new Play application
+jovenslivres.org 
 =================================
 
-This file will be packaged with your application, when using `activator dist`.
+Código fonte do site escrito em Play Framework com Scala, rodando no Heroku.
+
+Para contribuir, basta realizar um fork, resolver alguma das issues que estão abertas e fazer um pull request. 
